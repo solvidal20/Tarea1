@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView android:text="Permiten ejecutar acciones al pulsarlos."
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button android:id="@+id/btnToast" android:text="Mostrar Toast"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <ImageButton android:id="@+id/btnImage" android:src="@drawable/ic_android_24"
+        android:contentDescription="Botón con ícono"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab" android:src="@drawable/ic_android_24"
+        android:contentDescription="FAB"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>
